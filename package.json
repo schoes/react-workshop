@@ -1,0 +1,8 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:schoes/react-workshop.git",
+  "author": "Sven Schoeni <sven.schoeni@gmail.com>",
+  "license": "MIT"
+}
