@@ -9,8 +9,18 @@
 <script src="https://unpkg.com/react@15.3.0/dist/react.min.js"></script>
 <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.min.js"></script>
 <script>
-    const markup = React.createElement('h1', {}, 'this is my first comment');
-    ReactDOM.render(markup, document.getElementById('root-container'));
+    var markupExample = React.createElement('div', {},
+        React.createElement('h1', {}, 'My Favorite Netflix Shows'),
+        React.createElement('ul', {},
+            React.createElement('li', {}, 'House of Cards'),
+            React.createElement('li', {}, 'Daredevil'),
+            React.createElement('li', {}, 'Jessica Jones'),
+            React.createElement('li', {}, 'Bloodline'),
+            React.createElement('li', {}, 'Stranger Things')
+        )
+    );
+
+    ReactDOM.render(markupExample, document.getElementById('root-container'));
 </script>
 </body>
 </html>
