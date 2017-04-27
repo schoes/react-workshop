@@ -9,14 +9,15 @@
 <script src="https://unpkg.com/react@15.3.0/dist/react.min.js"></script>
 <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.min.js"></script>
 <script>
-    var markupExample = React.createElement('div', {},
-        React.createElement('h1', {}, 'My Favorite Netflix Shows'),
-        React.createElement('ul', {},
-            React.createElement('li', {}, 'House of Cards'),
-            React.createElement('li', {}, 'Daredevil'),
-            React.createElement('li', {}, 'Jessica Jones'),
-            React.createElement('li', {}, 'Bloodline'),
-            React.createElement('li', {}, 'Stranger Things')
+    const ce = React.createElement;
+    var markupExample = ce('div', {},
+        ce('h1', {}, 'My Favorite Netflix Shows'),
+        ce('ul', {},
+            ce('li', {}, 'House of Cards'),
+            ce('li', {}, 'Daredevil'),
+            ce('li', {}, 'Jessica Jones'),
+            ce('li', {}, 'Bloodline'),
+            ce('li', {}, 'Stranger Things')
         )
     );
 
